@@ -1,0 +1,49 @@
+Title: Mental Health Support Application
+
+The purpose of this project is to develop a software application that supports individuals experiencing mental health challenges. The app will provide tools for personal health management, medication reminders, appointment scheduling, and peer support via a moderated forum. This project serves as a semester-long exercise in requirements engineering, project management, and software testing.
+1. Scope
+* Target Platform: Preferred: Mobile app (Android/iOS). Acceptable: Web app. Allowed but not encouraged: Desktop app.
+* Core Features:
+o Secure collection of user demographic and medical/psychiatric history.
+o Medication management with optional reminders.
+o Calendar for healthcare appointments with notifications.
+o Community support forum with posting and reply features, moderated for safety by a provided local LLM API.
+* Constraints:
+o Use open-source solutions whenever possible.
+o Sensitive user information must be stored securely with appropriate safeguards.
+o All forum posts must be checked for safety before being published.
+
+1.1 Definitions, Acronyms, and Abbreviations
+* LLM: Large Language Model, used for content moderation.
+* UI/UX: User Interface / User Experience.
+* HIPAA (for context only): Health Insurance Portability and Accountability Act, standard for handling sensitive health data.
+
+2. Overall Description
+2.1 Product Perspective
+The application is a stand-alone system that:
+* Interacts with the user via a mobile or web interface.
+* Connects to a backend database for secure storage.
+* Calls an LLM moderation API (provided by instructor) before posting forum content.
+2.2 Product Functions
+* Collect and store user demographics and medical history.
+* Manage medications (logging, reminders, refill alerts, doctor contact reminders).
+* Provide a personal calendar for health appointments with alerts.
+* Support community discussions by allowing users to post new threads and reply to existing messages, with moderation for safety.
+2.3 User Characteristics
+* End users may vary in age, background, and digital literacy.
+* Users are expected to have mobile device or web access.
+* Some users may have limited technical skills; the UI should be intuitive and accessible.
+2.4 Constraints
+* Sensitive data must be encrypted at rest and in transit.
+* All forum content must pass moderation before display.
+* Development must use open-source technologies where feasible.
+2.5 Assumptions and Dependencies
+* The instructor will provide an API endpoint for LLM moderation.
+* Users will have consistent internet access for app functionality.
+* The project is for educational purposes and not intended for production healthcare use.
+
+Tools to Use for Design and Development
+* You must use some UML CASE tools to make your analysis and design, such as StarUML and IBM Rational Rose.
+* You must use Microsoft Project to work out your workplan and use MS Project to keep track of the progress of your project.
+* You may use Microsoft Visio to draw Entity-Relation diagrams (ERDs), and data flow diagrams (DFDs). 
+* You must use some Unit Test tools (e.g., Pytest, JUnit, CppUnit, etc.) to perform formal testing.

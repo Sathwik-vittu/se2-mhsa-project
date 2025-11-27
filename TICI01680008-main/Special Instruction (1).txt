@@ -1,0 +1,18 @@
+Python Backend + Simple HTML Frontend 
+
+Backend: Flask
+Frontend: Basic HTML/CSS/JS
+Database: SQLite or MongoDB
+
+Just want code and right output that's it
+No need of any testing, any documentation, any video or etc nothing
+I just want a simple basic website just to pass all given requirements that's it
+
+Like there has to be medication reminder
+Appointment scheduling 
+Forum and dash board of self health profile
+
+
+Make sure it includes sign in , sign up for users and also in forum they can reply each other from their accounts
+
+Provide me the deployment link and everything
